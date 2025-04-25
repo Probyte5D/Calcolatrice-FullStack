@@ -1,10 +1,9 @@
-# Ignora tutte le cartelle target
+HELP.md
 target/
-
-# Ignora i file generati da maven
 !.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Ignora i file di configurazione e gli altri IDE
 ### STS ###
 .apt_generated
 .classpath
@@ -27,9 +26,8 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
-
-
-.history/
