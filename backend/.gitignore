@@ -33,3 +33,36 @@ build/
 
 
 .history/
+
+# Ignora cartelle di test
+test/
+
+# Ignora impostazioni IDE
+nb-configuration.xml
+nbactions.xml
+
+# Ignora Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignora DB locali
+mysql/
+# Ignora Maven wrapper
+mvnw
+mvnw.cmd
+
+# Ignora file NetBeans
+nb-configuration.xml
+nbactions.xml
+
+# Ignora test
+src/test/
+
+
+
+# Ignora cartella Maven Wrapper
+.mvn/
+
+# Ignora le configurazioni Maven
+maven-wrapper.properties
